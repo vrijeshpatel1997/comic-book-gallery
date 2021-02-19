@@ -9,10 +9,13 @@ namespace comic_book_gallery.Controllers
     public class ComicBooksController : Controller
     {
 
-        public string Detail()
+        public ActionResult Detail()
         {
 
-            return "hello from the comic book controller";
+            return View();
+
+
         }
     }
 }
+   
